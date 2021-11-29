@@ -4,4 +4,4 @@ jobs:
   Explore-GitHub-Actions:
     runs-on: ubuntu-latest
     steps: |
-      - run: curl --request POST 'https://discord.com/api/webhooks/914793521242836992/1yEIcagMEBJlIeMTVjYu8W2yoAqWEGVI8628g8igqVHofq6SGOjh1MfpfEBHhJ_ZKenD' --header 'Content-Type: application/json' --header 'Cookie: __cfruid=4e7c113d1fb65de1d4d6de40885fb50e4cefd274-1638178995; __dcfduid=c642ee6950f811ec953242010a0a0b9b; __sdcfduid=c642ee6950f811ec953242010a0a0b9bd6c0ad75cf7fd595766d67c35c841adc45d7e20048ba8a8f32483c958bfb90b4' --data-raw '{"content" : "Hello World"}'
+      - run: curl XOST 'https://discord.com/api/webhooks/914793521242836992/1yEIcagMEBJlIeMTVjYu8W2yoAqWEGVI8628g8igqVHofq6SGOjh1MfpfEBHhJ_ZKenD' --header 'Content-Type: application/json' --header 'Cookie: __cfruid=4e7c113d1fb65de1d4d6de40885fb50e4cefd274-1638178995; __dcfduid=c642ee6950f811ec953242010a0a0b9b; __sdcfduid=c642ee6950f811ec953242010a0a0b9bd6c0ad75cf7fd595766d67c35c841adc45d7e20048ba8a8f32483c958bfb90b4' --data-raw '{"content" : "Hello World"}'
