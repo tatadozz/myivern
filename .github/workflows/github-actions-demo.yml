@@ -5,4 +5,4 @@ jobs:
     runs-on: ubuntu-latest
     steps: 
       - run: |
-        curl -XPOST 'https://discord.com/api/webhooks/914793521242836992/1yEIcagMEBJlIeMTVjYu8W2yoAqWEGVI8628g8igqVHofq6SGOjh1MfpfEBHhJ_ZKenD' --header 'Content-Type: application/json' --data-raw '{"content" : "Hello World"}'
+        curl -XPOST 'https://discord.com/api/webhooks/914793521242836992/1yEIcagMEBJlIeMTVjYu8W2yoAqWEGVI8628g8igqVHofq6SGOjh1MfpfEBHhJ_ZKenD' -H 'Content-Type: application/json' -d '{"content" : "Hello World"}'
