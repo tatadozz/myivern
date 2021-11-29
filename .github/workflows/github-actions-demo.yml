@@ -1,8 +1,9 @@
 name: GitHub Actions Demo
+name: GitHub Actions Demo
 on: [push]
 jobs:
   Explore-GitHub-Actions:
     runs-on: ubuntu-latest
-    steps: 
+    steps:
       - run: |
-        curl -XPOST 'https://discord.com/api/webhooks/914793521242836992/1yEIcagMEBJlIeMTVjYu8W2yoAqWEGVI8628g8igqVHofq6SGOjh1MfpfEBHhJ_ZKenD' -H 'Content-Type: application/json' -d '{"content" : "Hello World"}'
+          curl -XPOST 'https://discord.com/api/webhooks/914793521242836992/1yEIcagMEBJlIeMTVjYu8W2yoAqWEGVI8628g8igqVHofq6SGOjh1MfpfEBHhJ_ZKenD' -H 'Content-Type: application/json' -d '{ "content": "Bonjour" }' 
