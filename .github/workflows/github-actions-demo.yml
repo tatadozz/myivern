@@ -5,4 +5,12 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - run: |
-          curl -XPOST 'https://discord.com/api/webhooks/914793521242836992/1yEIcagMEBJlIeMTVjYu8W2yoAqWEGVI8628g8igqVHofq6SGOjh1MfpfEBHhJ_ZKenD' -H 'Content-Type: application/json' -d '{ "content": "Bonjour" }' 
+          curl -XPOST 'https://discord.com/api/webhooks/914793521242836992/1yEIcagMEBJlIeMTVjYu8W2yoAqWEGVI8628g8igqVHofq6SGOjh1MfpfEBHhJ_ZKenD' -H 'Content-Type: application/json' -d '{ "content": "Pushed" }' 
+
+on: [pullrequest]
+jobs:
+  Explore-GitHub-Actions:
+    runs-on: ubuntu-latest
+    steps:
+      - run: |
+          curl -XPOST 'https://discord.com/api/webhooks/914793521242836992/1yEIcagMEBJlIeMTVjYu8W2yoAqWEGVI8628g8igqVHofq6SGOjh1MfpfEBHhJ_ZKenD' -H 'Content-Type: application/json' -d '{ "content": "Pushed" }' 
